@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ListViewExample</string>
+    <string name="membership">Membership</string>
+         <!--MemberShip-->
+    <string name="ok">OK</string>
+    <string-array name="auctionid">
+        <item>Moji HCS Ltd</item>
+        <item>Moji TCS Ltd</item>
+        <item>Moji JPS Ltd</item>
+    </string-array>
+    <string-array name="auctiondetail">
+        <item>Moji Colony</item>
+        <item>Moji Colony</item>
+        <item>Moji Colony</item>
+    </string-array>
+    <string-array name="zone">
+        <item>Science</item>
+        <item>Technology</item>
+        <item>Mechanical</item>
+    </string-array>
+    <string-array name="area">
+        <item>Near Malvia Nagar</item>
+        <item>Near Malvia Nagar</item>
+        <item>Near Malvia Nagar</item>
+    </string-array>
+    <string-array name="view">
+        <item>view</item>
+        <item>view</item>
+        <item>view</item>
+    </string-array>
+    <string-array name="map">
+        <item>On Google Map</item>
+        <item>On Google Map</item>
+        <item>On Google Map</item>
+    </string-array>
+
+          <!--Letters -->
+    <string-array name="scheme_name">
+        <item>Vidha Nagar A</item>
+        <item>Hitech City</item>
+        <item>Gachibowli</item>
+    </string-array>
+    <string-array name="dateofupload">
+        <item>11/12/2016, 11:56:00 AM</item>
+        <item>12/12/2015, 12:05:05 PM</item>
+        <item>09/08/2014, 04:25:36 AM</item>
+    </string-array>
+    <string-array name="version">
+        <item>2</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="description">
+        <item>Plot No:2,Block-B,Cyber Towers,Hitech City,Hyderabad</item>
+        <item>Plot No:2,Block-B,Cyber Towers,Hitech City,Hyderabad</item>
+        <item>Plot No:2,Block-B,Cyber Towers,Hitech City,Hyderabad</item>
+    </string-array>
+    <string-array name="view_letters">
+        <item>view</item>
+        <item>view</item>
+        <item>view</item>
+    </string-array>
+
+       <!--citizen services-->
+</resources>

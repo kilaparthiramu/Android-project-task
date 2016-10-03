@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvSingleUser"
+    app:cardElevation="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_auction_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="7dp"
+                android:text="Auction Id :"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_view_auction_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txt_auction_id"
+                android:layout_toEndOf="@+id/txt_auction_id"
+                android:layout_toRightOf="@+id/txt_auction_id"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="7dp"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_auction_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_view_auction_id"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:text="Auction Detail :"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_view_auction_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txt_auction_detail"
+                android:layout_toEndOf="@+id/txt_auction_detail"
+                android:layout_toRightOf="@+id/txt_auction_detail"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_auction_detail"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:text="Zone :"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_view_Zone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txt_zone"
+                android:layout_toEndOf="@id/txt_zone"
+                android:layout_toRightOf="@+id/txt_zone"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_zone"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:text="Area :"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:id="@+id/txt_view_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txt_area"
+                android:layout_toEndOf="@id/txt_area"
+                android:layout_toRightOf="@+id/txt_area"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="view"
+                android:id="@+id/button_view"
+                android:layout_below="@+id/txt_view_area"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On Google Map"
+                android:id="@+id/button_map"
+                android:layout_below="@+id/txt_view_area"
+                android:layout_toRightOf="@+id/button_view"
+                android:layout_toEndOf="@+id/button_view" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
